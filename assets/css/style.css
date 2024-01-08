@@ -1,0 +1,79 @@
+ body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 50px;
+     font-family: Seymour One;
+     /* background-color: #b0274d2e; */
+     background-image: url(../images/stars.png);
+     background-size: cover;
+ }
+
+ h1 {
+     color: #f12369;
+     text-shadow: 5px 1px black;
+     font-size: 3em;
+ }
+
+ .butt {
+     display: flex;
+     gap: 50px;
+     margin-bottom: 30px;
+
+ }
+
+ #gameContainer {
+     margin-left: 20vw;
+     margin-right: 20vw;
+     height: 50vh;
+     width: 30vw;
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .row {
+     display: flex;
+     flex: 1;
+ }
+
+ .cell {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex: 1;
+     border: 3px solid #000000;
+     font-size: 3em;
+     color: rgb(4 255 0);
+ }
+
+ .other {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex: 1;
+     border: 3px solid #443b3e;
+     font-size: 3em;
+     color: rgb(255 215 6);;
+ }
+
+ #congrat,
+ #alone,
+ #cpu {
+     background-color:#96b02700;
+    color: #FFEB3B;
+     font-family: Seymour One;
+     border-radius: 30px;
+     border: none;
+ }
+
+ #replay {
+     background-color: #b0274d2e;
+     color: #f12369;
+     font-family: Seymour One;
+     border: none;
+     border-radius: 30px;
+ }
+ #congrat {
+    font-size: 2em
+ }

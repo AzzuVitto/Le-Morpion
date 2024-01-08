@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Morpion</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Edu+TAS+Beginner:wght@600&family=Oleo+Script:wght@700&family=Open+Sans:wght@300&family=Pacifico&family=Permanent+Marker&family=Quicksand:wght@500&family=Seymour+One&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <h1>Le Morpion</h1>
+    <div class="butt">
+        <button id="alone" onclick = 'choiceCpu(false)' type="button">VP</button>
+        <button id="cpu" onclick ="choiceCpu(true)" type="button">VCPU</button>
+    </div>
+    <main id="gameContainer"></main>
+    <div id="congrat"></div>
+    <button id="replay" onclick="replay()" type="button">REJOUER</button>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
